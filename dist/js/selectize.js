@@ -3207,6 +3207,8 @@
 							if (self.deleteSelection()) {
 								self.setCaret(self.items.length);
 							}
+							
+							return false;
 						});
 	
 					};
